@@ -1,0 +1,57 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: aliceblue;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.container-header  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid white;
+    padding: 0% 50px 0% 50px;
+    font-size: 15pt;
+    box-shadow: inset 0 0 15px blue, 0 0 25px rgb(1, 161, 253); /*inset para que este el shaw adentro */
+    margin: auto;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.title {
+    justify-content: flex-start;
+    text-shadow: 0 0 10px violet, 0 0 25px violet, 0 0 40px blue ;
+}
+
+.nav_body {
+    display: flex;
+    border: 1px solid black;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: aliceblue;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.a {
+    text-shadow: 0 0 10px white, 0 0 30px white, 0 0 60px rgb(0, 255, 221);
+}
+
+
+.title {
+    animation: parpadear 1.5s infinite backwards steps(2);
+}
+
+@keyframes parpadear {
+    to {
+        color: rgb(125, 25, 172);
+        text-shadow:  0 0 10px violet, 0 0 25px violet, 0 0 40px blue ;
+    }
+}

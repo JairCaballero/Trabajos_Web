@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    background-color: rgb(194, 191, 191);
+    font-size: 20px;
+    font-weight: 650;
+}
+div {
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor_n {
+    background-color: rgb(194, 79, 2);
+    padding: 5px;
+    border-radius: 0px 25px 25px 25px;
+}
+
+h2 {
+    margin-top: 0%;
+    margin-bottom: 0.5%;
+    padding-left: 5px;
+    color: white;
+}
+
+p {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.p_n_uno {
+    background-color: rgb(255, 102, 0);
+    padding: 7px;
+}
+
+.p_n_dos {
+    background-color: rgb(250, 154, 90);
+    padding-left: 6px;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.contenedor_l {
+    background-color: rgb(212, 0, 212);
+    padding: 5px;
+    border-radius: 25px 0px 25px 0px;
+}
+
+.p_l_uno {
+    background-color: rgb(250, 0, 250);
+    padding: 7px;
+}
+    
+.p_l_dos {
+    background-color: rgb(255, 125, 255);
+    padding-left: 6px;
+    border-radius: 0px 0px 25px 0px;
+}
+    

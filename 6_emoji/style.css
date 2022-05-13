@@ -1,0 +1,206 @@
+body {
+    background-color: rgb(28, 221, 92);
+}
+
+
+h1 {
+    margin-top: 80px;
+    padding: 20px;
+    background-color: rgb(2, 2, 2);
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    color: rgb(243, 243, 243);
+}
+
+
+.contenedor_bot {
+    width: 70%;
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    margin-top: 100px;
+    margin-left: 17%;
+}
+
+button { 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 80px;
+    background-color: black;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 35px;
+    position: relative; /* esto ayuda al absolute del boton, para que la capa de animacion se ajuste del tamaño del boton */
+    overflow: hidden; /* esto es para que la capa amrilla respete vordes y no se salga, o aya sobrantes */
+}
+
+.boton .icono {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    left: -40px;
+    transition: .3s ease-in-out all;
+    opacity: 0;
+    font-size: 120px;
+}
+
+.boton span{
+    transition: .4s ease-in-out all;
+    position: absolute;
+    left: 30%;
+}
+
+.boton svg {
+    color: rgb(255, 255, 255);
+    width: 35px;
+    height: 35px;
+    
+}
+
+.boton:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.boton:hover .icono {
+    left: calc(100% - 140px);
+    opacity: 1;
+    margin-top: -15px;
+}
+
+.boton:hover span {
+    left: 20px;
+}
+
+.b, .b_dos, .b_tres {
+    padding: 2.5px;
+    border-radius: 40px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.b::before {
+    content: "¿¿ ??";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4;
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: .2s ease-in-out all; 
+}
+
+
+.b::after {
+    content: "IT";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 4;
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: .2s ease-in-out all; 
+    opacity: 0;
+}
+
+.b:hover::before {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+}
+
+.b:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.b_dos::before {
+    content: "¿¿ ??";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4;
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: .2s ease-in-out all; 
+}
+
+.b_dos::after {
+    content: "el rey leon";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 4;
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: .2s ease-in-out all; 
+    opacity: 0;
+}
+
+
+.b_dos:hover::before {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+}
+
+.b_dos:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.b_tres::before {
+    content: "¿¿ ??";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4;
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: .2s ease-in-out all; 
+}
+
+.b_tres::after {
+    content: "interstellar";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 4;
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: .2s ease-in-out all; 
+    opacity: 0;
+}
+
+
+.b_tres:hover::before {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+}
+
+.b_tres:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}

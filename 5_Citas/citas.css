@@ -1,0 +1,54 @@
+* {
+    font-family: sans-serif;
+    border-style: solid rgb(180, 179, 179);
+    background-color: rgb(33, 87, 40);
+    font-size: 18px;
+}
+
+h1 {
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#uno_block_main {
+    margin: 15px 30% 15px 30%;
+    padding: 15px;
+    border-radius: 30px;
+    border: solid 10px rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+}
+
+#dos_block_main {
+    margin: 15px 60% 15px 10px;
+    color: aliceblue;
+    padding: 15px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: solid 10px rgb(255, 68, 0);
+    background-color: rgb(238, 113, 68);
+    text-align: left;
+}
+
+#tres_block_main {
+    margin: 15px 10px 15px 60% ;
+    color: aliceblue;
+    padding: 15px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: solid 10px rgb(230, 230, 19);
+    background-color: rgb(170, 170, 26);
+    text-align: right;
+}
+
+#cuatro_block_main {
+    margin: 15px 30% 15px 30%;
+    border-style: dashed;
+    color: aliceblue;
+    padding: 15px;
+    border: dashed 10px rgb(59, 86, 243);
+    background-color: rgb(46, 73, 224);
+    text-align: center;
+}

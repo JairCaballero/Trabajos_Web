@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.div_principal{
+    width: 85vw;
+    height: 40vw;
+    margin: 20px auto;
+    position: relative;
+}
+
+.naranja {
+    width: 90vw;
+    height: 100px;
+    background-color: #fcc442;
+    border: 4px solid #b4862f;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.amarillo, .celeste, .morado, .rojo, .verde {
+    width: 35vw;
+    height: 15vw;
+    position: absolute;
+}
+
+.celeste, .rojo {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.amarillo{
+    background-color: #fdf748;
+    border: 4px solid #beb52e;
+    top: 5px;
+    left: 10px;
+}
+
+.celeste{
+    background-color: #8cfaf6;
+    border: 4px solid #75b3b8;
+    top: 5px;
+    right: 5px;
+}
+
+.morado{
+    background-color: #fd91f2; 
+    border: 4px solid #a575a5;
+    bottom: 5px;
+    left: 5px;
+}
+
+.rojo{
+
+    border: 4px solid #c06351;
+    background-color: #ff725d;
+    bottom: 5px;
+    right: 5px;
+}
+
+.verde{
+    background-color: #5cfd64;
+    border: 4px solid #3b803f;
+    text-align: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+.amarillo:hover{
+    z-index: 11;
+}
+
+.celeste:hover{
+    z-index: 11;
+}
+
+.morado:hover{
+    z-index: 11;
+}
+
+.rojo:hover{
+    z-index: 11;
+}
+
+.verde:hover{
+    z-index: 11;
+}

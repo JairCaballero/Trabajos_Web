@@ -1,0 +1,39 @@
+* {
+    background-color: rgb(204, 200, 200);
+}
+
+h1 {
+    font-family:'Trebuchet MS';
+    text-align: center; 
+    font-size: 70px;
+}
+
+#main_hdos {
+    font-family: 'Trebuchet MS';
+    padding: 20px 0px 20px 30px;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin: 25px;
+}
+
+figure {
+
+    margin: 30px 40px 200px 40px;
+}
+
+#img_uno {
+    float: left;
+    width: 300px;
+}
+
+p {
+    text-align: justify;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serifs;
+}
+
+#img_dos {
+    float: right;
+    width: 300px;
+}

@@ -1,0 +1,50 @@
+* {
+    background-color: rgb(235, 216, 253);
+    margin: 10px;
+    font-size: 25px;
+
+}
+
+h1 {
+    font-size: 80px;
+    text-align: right;
+    letter-spacing: 35px;
+    margin-top: 30px;
+    color: rgb(16, 27, 122);
+}
+
+h2 {
+    font-size: 30px;
+    padding: 2px;
+    background-color: rgb(255, 152, 25);
+    color: rgb(255, 255, 255);
+    margin-top: 85px; 
+}
+
+#h2_uno {
+    margin-left: 450px;
+}
+
+#h2_tres {
+    margin-right: 450px;
+}
+
+#uno {
+    float: left;
+    margin-right: 30px;
+}
+
+#dos {
+    margin: 10px auto;
+    display: block;
+}
+
+#tres {
+    float: right;
+}
+
+img {
+    width: 420px;
+    right: 440px;
+}
+

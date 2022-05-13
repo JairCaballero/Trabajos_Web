@@ -1,0 +1,193 @@
+* {
+    margin: 1%;
+    padding: 0%;
+}
+
+body {
+    background-color: #CC1B99;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23CC1B99' width='11' height='11'/%3E%3Crect fill='%23d11996' x='10' width='11' height='11'/%3E%3Crect fill='%23d61693' y='10' width='11' height='11'/%3E%3Crect fill='%23db1590' x='20' width='11' height='11'/%3E%3Crect fill='%23df138d' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23e31389' y='20' width='11' height='11'/%3E%3Crect fill='%23e71386' x='30' width='11' height='11'/%3E%3Crect fill='%23eb1482' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23ef167f' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23f2197b' y='30' width='11' height='11'/%3E%3Crect fill='%23f61c78' x='40' width='11' height='11'/%3E%3Crect fill='%23f92074' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23fb2471' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23fe286d' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23ff2c69' y='40' width='11' height='11'/%3E%3Crect fill='%23ff3165' x='50' width='11' height='11'/%3E%3Crect fill='%23ff3562' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23ff3a5e' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23ff3e5a' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23ff4356' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23ff4852' y='50' width='11' height='11'/%3E%3Crect fill='%23ff4d4e' x='60' width='11' height='11'/%3E%3Crect fill='%23ff514a' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23ff5646' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23ff5b42' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23ff603e' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23ff643a' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23ff6936' x='70' width='11' height='11'/%3E%3Crect fill='%23ff6e31' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23ff722d' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23ff7728' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23ff7c23' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23ff801d' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23ff8516' x='80' width='11' height='11'/%3E%3Crect fill='%23ff890e' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23ff8e03' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23ff9200' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23ff9700' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23ff9b00' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23fea000' x='90' width='11' height='11'/%3E%3Crect fill='%23fca400' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23f9a800' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23f7ad00' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23f4b100' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23f1b500' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23eeb900' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23ebbd00' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23e7c100' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23e4c500' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23e0c900' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23dccd00' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23d8d100' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23d4d500' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23cfd800' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23cbdc00' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23c6e000' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23c1e300' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23bce70c' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23b7eb1a' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23B1EE25' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    width: 100%;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+div > div {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    color: white;
+    margin-top: 60px;
+}
+
+div {
+    border: 1px solid black;
+}
+
+.flex-container, .flex-container-2, .flex-container-3, .flex-container-4, .flex-container-6, .flex-container-7, .flex-container-8, .flex-container-9 {
+    display: flex;
+}
+
+.hijo-1 {
+    flex-basis: 200px;
+    height: 250px;
+}
+
+.h2-2 {
+    font-size: 15px;
+}
+
+.flex-container-2 {
+    justify-content: space-around;
+}
+
+.hijo-2 {
+    flex-basis: 150px;
+    height: 200px;
+    font-size: 15px;
+}
+
+.flex-container-3 {
+    align-items: center;
+}
+
+.hijo-3_1 {
+    flex-basis: 200;
+    height: 250px;
+}
+
+.hijo-3_2 {
+    height: 200px;
+}
+
+.hijo-3_3 {
+    height: 160px;
+}
+
+.hijo-3_4 {
+    flex-basis: 200;
+    height: 290px;
+}
+
+.hijo-3_5 {
+    flex-basis: 200;
+    height: 250px;
+}
+
+.hijo-3b {
+    border: 1px solid black;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.flex-container-4 {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub-4 {
+    background-color: rgb(170, 170, 170);
+}
+
+.hijo-5_1 {
+    height: 250px;
+}
+
+.hijo-5_2 {
+    height: 200px;
+}
+
+.hijo-5_3 {
+    height: 160px;
+}
+
+.hijo-5_4 {
+    height: 290px;
+}
+
+.hijo-5_5 {
+    height: 250px;
+}
+
+.sub-5b {
+    background-color: rgb(170, 170, 170);
+    padding: 5px;
+}
+
+.hijo-6 {
+    align-items: flex-start;
+}
+
+img {
+    width: 80px;
+}
+
+.hijo-7 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.hijo-7 > img {
+    border: 2px solid black;
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+}
+
+.sub-7 {
+    background-color: rgb(170, 170, 170);
+    border: 1px solid black;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-7 span{
+    padding: 2px;
+}
+
+.hijo-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-8 {
+    background-color: rgb(170, 170, 170);
+    width: 100%;
+    text-align: center;
+}
+
+.hijo-9 > div, .title-9 {
+    padding: 0%;
+    margin: 0%;
+}
+
+.hijo-9 {
+    align-items: flex-start;
+    align-items: center;
+}
+
+.title-9 {
+    border: 1px solid black;
+    background-color: rgb(170, 170, 170);
+}

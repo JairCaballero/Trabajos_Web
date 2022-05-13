@@ -1,0 +1,37 @@
+body {
+  background-color: #dae3e5;
+  margin: 15px; 
+}
+
+header {
+  text-align: center;
+  padding: 4px 0px;
+}
+
+.main_title {
+  background-color: #8fb7c1;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.main_sub_title {
+  background-color: #8fb7c1;
+}
+
+span {
+  color: #40707c;
+  padding: 10px;
+}
+
+pre {
+  background-color: #adbfc4;
+}
+
+.main_p_span {
+  color: #417bde;
+}
+
+p {
+  background-color: rgb(179, 178, 178);
+}
+
